@@ -1,0 +1,32 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "Product graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node ./bin/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinduu/GraphQL-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravinduu/GraphQL-Node/issues"
+  },
+  "homepage": "https://github.com/ravinduu/GraphQL-Node#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "@graphql-tools/merge": "^8.3.10",
+    "apollo-server": "^3.11.1",
+    "apollo-server-express": "^3.11.1",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "uuid": "^9.0.0"
+  }
+}
