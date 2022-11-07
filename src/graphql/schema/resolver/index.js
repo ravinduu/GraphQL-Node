@@ -4,8 +4,8 @@ const createNewProduct = require("./createNewProduct");
 
 const resolvers = {
   Query: {
-    allProducts: () => products,
-    productById: async (_, { id }) => getProductById.getProductById({ id: id }),
+    getProducts: () => products,
+    getProduct: async (_, { id }) => getProductById.getProductById({ id: id }),
   },
   Mutation: {
     addProduct: async (_, { productName, unitPrice }) =>
